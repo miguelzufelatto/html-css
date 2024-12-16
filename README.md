@@ -12,5 +12,4 @@ Meus desafios e exercícios do curso de HTML e CSS (Curso em Vídeo)
     <li><a href="desafios/modulo-01/d007/index.html">Desafio 07</a></li>
     <li><a href="desafios/modulo-01/d008/index.html">Desafio 08</a></li>
     <li><a href="desafios/modulo-01/d009/index.html">Desafio 09</a></li>
-    <li><a href="desafios/modulo-02/d010/index.html">Desafio 10</a></li>
 </ul>
