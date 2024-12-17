@@ -1,6 +1,6 @@
 # html-css
 
-Meus desafios e exercícios do curso de HTML e CSS (Curso em Vídeo)
+Meus desafios do curso de HTML e CSS (Curso em Vídeo)
 
 <ul>
     <li><a href="desafios/modulo-01/d001/d001.html">Desafio 01</a></li>
