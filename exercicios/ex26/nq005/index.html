@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Meu Site</h1>
+      <span id="burguer" class="material-icons" onclick="clickMenu()"
+        >menu</span
+      >
+      <menu id="itens">
+        <ul>
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+          <li><a href="#">Opção 4</a></li>
+          <li><a href="#">Opção 5</a></li>
+        </ul>
+      </menu>
+    </header>
+    <main>
+      <article>
+        <h2>Testando Media Queries</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+          ullam adipisci rem beatae ducimus quaerat saepe porro doloribus
+          consequatur, vel non exercitationem distinctio commodi velit
+          necessitatibus perspiciatis fuga corrupti. Accusamus? Lorem ipsum
+          dolor sit amet consectetur, adipisicing elit. Sed nulla maxime
+          pariatur officia non, adipisci accusantium porro, perferendis facere
+          deleniti, eaque facilis fugiat velit! Quaerat ratione est odit
+          voluptatum magnam. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Quasi voluptatem eligendi exercitationem non incidunt. Numquam
+          non maiores fuga saepe asperiores, veniam repudiandae ad odit nulla
+          cupiditate optio perspiciatis tempora voluptatum!
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          ducimus eum architecto mollitia sapiente eaque excepturi quas
+          provident laudantium perspiciatis quos ipsa quasi ipsum accusamus,
+          tempora illo veritatis repellendus fugit? Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Consequatur quia nobis magnam doloribus
+          cumque voluptatibus neque reiciendis harum impedit optio obcaecati rem
+          quasi dolor totam, fugiat aliquid, dolore minima alias. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Odit mollitia molestias
+          nemo placeat eaque non adipisci quibusdam natus illum amet,
+          consequatur quaerat tempore obcaecati maiores animi iste
+          exercitationem cumque sequi.
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vel
+          quae quibusdam architecto maiores repellendus similique veniam
+          cupiditate quas, debitis aut explicabo iste voluptatem expedita
+          quaerat dolore ipsum exercitationem! Natus. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Repellat excepturi possimus ad quaerat
+          aliquam harum! Eum libero beatae sapiente consequuntur quia labore
+          excepturi nemo dolore facilis illum eos, nam amet! Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Vero, quasi? Inventore voluptas
+          non libero doloribus perspiciatis reiciendis nostrum, eaque voluptates
+          dignissimos vel quasi sunt praesentium sed dolor. Dolores, nobis
+          natus!
+        </p>
+      </article>
+    </main>
+    <script>
+      function clickMenu() {
+        if (itens.style.display == "block") {
+          itens.style.display = "none";
+        } else {
+          itens.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
